@@ -1,2 +1,38 @@
 .navbar{
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);}
+#water{
+    width: 70%;
+    height: auto;
+}
+body{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+.paragraph{
+    background-color: white;
+}
+
+.author-attributes{
+    font-size: 5px;
+}
+.logo{
+    width: 20%;
+    height: auto;
+}
+
+footer{background-color: white;
+     }
+#linkedin{
+    padding-top: 20px;
+    width: 20%;
+    height: auto;}
+#Deepstash{
+    width: 60%;
+    height: auto;}
+#Github{
+    padding-top: 12px;
+    width: 40%;
+    height: auto;}
