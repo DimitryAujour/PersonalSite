@@ -1,9 +1,11 @@
 .navbar{
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);}
+
 #water{
-    width: 70%;
+    width: 100%;
     height: auto;
 }
+
 body{
     background-color: #e5e5f7;
     opacity: 0.8;
@@ -22,8 +24,19 @@ body{
     width: 20%;
     height: auto;
 }
+.animated-button{
 
-footer{background-color: white;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #bf95c6, #c0a4d4, #c1b3e1, #c4c1ec, #c8cff5, #ccd3f6, #d0d6f6, #d4daf7, #d6d5f0, #d7d0e9, #d8cbe2, #d7c7da);
+}
+.animated-button:hover {
+    transform: scale(1.1);  /* Enlarges the button by 10% */
+    opacity: 0.7;          /* Makes the button slightly transparent */
+    transition: all 0.3s;  /* Animation takes 0.3 seconds */
+}
+
+
+footer{background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
      }
 #linkedin{
     padding-top: 20px;
@@ -36,3 +49,20 @@ footer{background-color: white;
     padding-top: 12px;
     width: 40%;
     height: auto;}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 10000;
+    opacity: 1; /* Make it fully opaque when shown */
+    display: none; /* Initially hidden */
+    transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1); /* Adjusted to 2s */
+}
+
+
+
+
