@@ -19,6 +19,7 @@ body{
 
 .author-attributes{
     font-size: 5px;
+    align-items: center;
 }
 .logo{
     width: 20%;
